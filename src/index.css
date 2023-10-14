@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blue-based-line-gradient {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.blue-based-circle-gradient {
+    background: linear-gradient(to bottom, hsla(241, 72%, 46%, 0.4), hsla(241, 72%, 46%, 0.1));
+}
+
+.paragraph {
+    color: hsla(241, 72%, 46%, 1);
+    box-shadow: 0 0 5px hsla(241, 72%, 46%, 0.5);
+}
+
+/* Add hover effect for the linear gradient */
+.button-hover:hover {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
