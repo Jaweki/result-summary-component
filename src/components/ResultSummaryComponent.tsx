@@ -49,7 +49,7 @@ const Stats = () => {
 
 const ResultSummaryComponent = () => {
   return (
-    <div className=" w-[630px] h-[360px] max-mobile:w-full max-mobile:h-[100vh] max-mobile:rounded-none rounded-2xl flex flex-row max-mobile:flex-col gap-2 font-hankenGrotesk shadow-2xl max-mobile:gap-0 max-mobile:shadow-none max-mobile:top-0">
+    <div className=" w-[650px] h-[360px] max-mobile:w-full max-mobile:h-[100vh] max-mobile:rounded-none rounded-2xl flex flex-row max-mobile:flex-col gap-2 font-hankenGrotesk shadow-2xl max-mobile:gap-0 max-mobile:shadow-none max-mobile:top-0">
       <div className="w-1/2 h-full text-neutral-white rounded-2xl flex flex-col blue-based-line-gradient py-4 gap-4 justify-center px-16 max-mobile:px-14 max-mobile:h-[50%] max-mobile:w-full max-mobile:rounded-3xl max-mobile:rounded-t-none">
         <span className=" text-bodyCopy mx-auto pt-4">Your Result</span>
         <div className="flex flex-col justify-center items-center gap-1 w-[130px] h-[130px] rounded-[50%] blue-based-circle-gradient mx-auto mt-4 max-mobile:mt-0 max-mobile:gap-0">
@@ -63,7 +63,7 @@ const ResultSummaryComponent = () => {
           Great
         </span>
 
-        <p className=" text-[13px] font-sans font-light text-center opacity-70 mx-auto">
+        <p className=" text-[13px] font-sans font-light text-center opacity-70 px-3 mx-auto">
           {" "}
           You scored higher than 65% of the people who have taken these tests
         </p>
