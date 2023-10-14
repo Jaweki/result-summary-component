@@ -24,7 +24,7 @@ const Stats = () => {
   };
 
   return (
-    <div className="flex flex-col gap-3 mt-7 max-mobile:mt-0">
+    <div className="flex flex-col gap-3 mt-3 max-mobile:mt-0">
       {sampleData.map(({ category, icon, score }: MapProps, index: number) => (
         <div
           key={`${category}-${score}`}
@@ -49,7 +49,7 @@ const Stats = () => {
 
 const ResultSummaryComponent = () => {
   return (
-    <div className=" w-[42%] h-[55%] max-mobile:w-full max-mobile:h-[100vh] max-mobile:rounded-none rounded-2xl flex flex-row max-mobile:flex-col gap-2 font-hankenGrotesk shadow-2xl max-mobile:gap-0 max-mobile:shadow-none max-mobile:top-0">
+    <div className=" w-[42%] h-[50%] max-mobile:w-full max-mobile:h-[100vh] max-mobile:rounded-none rounded-2xl flex flex-row max-mobile:flex-col gap-2 font-hankenGrotesk shadow-2xl max-mobile:gap-0 max-mobile:shadow-none max-mobile:top-0">
       <div className="w-1/2 h-full text-neutral-white rounded-2xl flex flex-col blue-based-line-gradient py-4 gap-4 justify-center px-16 max-mobile:px-14 max-mobile:h-[50%] max-mobile:w-full max-mobile:rounded-3xl max-mobile:rounded-t-none">
         <span className=" text-bodyCopy mx-auto">Your Result</span>
         <div className="flex flex-col justify-center items-center gap-1 w-[130px] h-[130px] rounded-[50%] blue-based-circle-gradient mx-auto mt-4 max-mobile:mt-0 max-mobile:gap-0">
@@ -68,7 +68,7 @@ const ResultSummaryComponent = () => {
           You scored higher than 65% of the people who have taken these tests
         </p>
       </div>
-      <div className=" rounded-2xl max-mobile:rounded-none flex flex-col w-1/2 h-full p-8 max-mobile:h-1/2 max-mobile:w-full max-mobile:pt-3 max-mobile:py-0">
+      <div className=" rounded-2xl max-mobile:rounded-none flex flex-col justify-center w-1/2 h-full p-8 max-mobile:h-1/2 max-mobile:w-full max-mobile:pt-3 max-mobile:py-0">
         <span className=" font-extraBold text-bodyCopy text-neutral-darkGrayBlue ">
           Summary
         </span>
@@ -76,7 +76,7 @@ const ResultSummaryComponent = () => {
 
         <button
           type="button"
-          className="rounded-3xl bg-neutral-darkGrayBlue mt-8 h-[30%] text-neutral-white button-hover max-mobile:mt-2 max-mobile:mb-3"
+          className="rounded-3xl bg-neutral-darkGrayBlue mt-3 h-[35px] text-neutral-white button-hover max-mobile:mt-2 max-mobile:mb-3"
         >
           Continue
         </button>
